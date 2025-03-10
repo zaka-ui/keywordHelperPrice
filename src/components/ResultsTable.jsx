@@ -6,7 +6,6 @@ import { useMainContext } from "../context/MainContext";
 
 const ResultsTable = ({ results, totalKeywords, level }) => {
   const {csvResults , setCsvResults } = useMainContext();
-  const selectedResults = [];
   const [showStats, setShowStats] = useState(0);
   const [item, setItem] = useState({});
   const competiton = ['Facile' , 'Facile' , 'concurentiel' , 'Trés concurentiel'];
@@ -32,13 +31,16 @@ const ResultsTable = ({ results, totalKeywords, level }) => {
                   </span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-gray-400">Classification:</span>
+                  <span className="text-gray-400">Classification :</span>
                   <span className={`font-bold px-3 py-1 rounded-full
                       ${level.name === "Level 1" ? "bg-emerald-500/20 text-emerald-400" :
                         level.name === "Level 2" ? "bg-blue-500/20 text-blue-400" :
                         level.name === "Level 3" ? "bg-purple-500/20 text-purple-400" :
                         "bg-amber-500/20 text-amber-400"}`}>
-                    {level.name}
+                    {level.level}
+                  </span>
+                  <span className="font-bold px-3 py-1 rounded-full">
+                    Price : {level.priceTotal}£
                   </span>
                 </div>
               </div>
@@ -46,23 +48,6 @@ const ResultsTable = ({ results, totalKeywords, level }) => {
           </tr>
           <tr className="bg-gray-800/40">
             <th className="relative flex justify-start gap-2 px-6 py-4 text-left text-gray-300 font-medium border-b border-gray-700">
-            <input type="checkbox" className="mr-2" 
-                    onChange={(e) => {
-                      if (e.target.checked) {
-                        const checkBoxed = document.querySelectorAll("#keywordCheckbox");
-                        checkBoxed.forEach((checkbox) => {
-                          checkbox.checked = true; 
-                          setCsvResults(results)
-                        });
-                      } else {
-                        const checkBoxed = document.querySelectorAll("#keywordCheckbox");
-                        checkBoxed.forEach((checkbox) => {
-                          checkbox.checked = false; // Uncheck the checkboxes
-                          setCsvResults([])
-                        });
-                      }
-                    }}
-              />
               Keyword
             </th>
             <th className="relative px-6 py-4 text-center text-gray-300 font-medium border-b border-gray-700">
@@ -85,7 +70,6 @@ const ResultsTable = ({ results, totalKeywords, level }) => {
             const keywordDifficulty = result?.keyword_difficulty_for_local_seo;
             const searchVolume = result?.search_volume;
             const suggestions = result?.suggestions;
-
             return (
               <>
                 <tr
@@ -98,10 +82,14 @@ const ResultsTable = ({ results, totalKeywords, level }) => {
                     <input type="checkbox" id="keywordCheckbox" className="mr-2" 
                     onChange={(e) => {
                       let updatedResults;
-                      if (e.target.checked) {
-                        updatedResults = [...csvResults, result];
+                      let res = {
+                        keyword : result.keyword , 
+                        difficulty : result?.keyword_difficulty_for_local_seo
+                      }  
+                      if (e.target.checked) {                      
+                        updatedResults = [...csvResults, res];
                       } else {
-                        updatedResults = csvResults.filter((item) => item !== result); // Remove the result immutably
+                        updatedResults = csvResults.filter((item) => item.keyword !== res.keyword); // Remove the result immutably
                       }
                       setCsvResults(updatedResults); // Update the state
                     }}

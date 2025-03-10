@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { ChevronUp, ChevronDown } from 'lucide-react';
+import { useMainContext } from '../context/MainContext';
 
 const SuggestionsList = ({ suggestions }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const {csvResults , setCsvResults} = useMainContext();
   const maxVisibleSuggestions = 3;
   if (!suggestions || !Array.isArray(suggestions) || suggestions.length <= 1) {
     return (
@@ -27,13 +29,23 @@ const SuggestionsList = ({ suggestions }) => {
     <div className="space-y-2">
       <ul className="space-y-1">
         { formattedSuggestions.length > 0 ?
-	  visibleSuggestions.map((suggestion, index) => (
-          <li
-            key={`${suggestion.keyword}-${index}`}
-            className="text-sm hover:bg-gray-50   rounded p-1 flex  gap-2 "
-          >
-
-           <input type="checkbox" name="choseKeyword"  />		  
+      	  visibleSuggestions.map((suggestion, index) => (
+          <li key={`${suggestion.keyword}-${index}`} className="text-sm hover:bg-gray-50   rounded p-1 flex  gap-2 ">
+          <input type="checkbox" name="choseKeyword"   
+              onChange={(e) => {
+                      let updatedResults;
+                      let res = {
+                        keyword : suggestion.keyword , 
+                        difficulty : suggestion?.competition
+                      }  
+                      if (e.target.checked) {                      
+                        updatedResults = [...csvResults, res];
+                      } else {
+                        updatedResults = csvResults.filter((item) => item.keyword !== res.keyword); // Remove the result immutably
+                      }
+                      setCsvResults(updatedResults); // Update the state
+                    }}  
+              />
             <div className="flex items-center justify-start space-x-2">
               <span className='hover:text-gray-500'>{suggestion?.keyword}</span>
               <span className="text-xs text-gray-500">
@@ -47,7 +59,6 @@ const SuggestionsList = ({ suggestions }) => {
                  : suggestion.competition > 100 && suggestion.competition < 150 ? "concurenciel " 
                  : "Trés concurenciel "} )
                 </span>
-
               }
             </div>
           </li>

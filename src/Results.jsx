@@ -16,56 +16,79 @@ import Form from './components/Form';
 import { handleCreateProject, handleCreateResults , handleUpdateProject, BASEURL, locationResult, removeCityFromKeyword} from "./utils";
 import FlashMessage from "./components/FlashMessage";
 
-
-
 // Helper functions
-const calculateTotalKeywords = (results) => results?.length || 0;
+const calculateTotalKeywords = (csvResults) => csvResults?.length || 0;
 
-const determineLevel = (totalKeywords) => {
-  if (totalKeywords < 30) return { name: "niveau 1", color: "text-emerald-400" };
-  if (totalKeywords < 80) return { name: "niveau 2", color: "text-blue-400" };
-  if (totalKeywords < 180) return { name: "niveau 3", color: "text-purple-400" };
-  return { name: "niveau VIP", color: "text-amber-400" };
+  const calculatePrice = (csvResults) => {
+  let priceTotal = 0;
+  let level ;
+  let veryCompetitive = 0;
+  csvResults.forEach((result) =>{
+    if(result.difficulty > 150 ) veryCompetitive ++;
+  })
+  if( veryCompetitive > 0){
+    priceTotal = 500;
+    let count = 0;
+    csvResults.forEach(r => {
+      if(r.difficulty < 150 || count > 0) {
+          const addedPrice = r.difficulty < 100 ? 10 : r.difficulty > 100 && r.difficulty < 150 ? 25 : 50;
+          priceTotal += addedPrice ;
+      }
+      if(r.difficulty > 150 ) count ++;
+    })
+    level = "VIP";
+    } else {
+    const count = csvResults.length;
+    if(count <= 20) priceTotal = 120;
+    else if (count <= 40 ) priceTotal = 200;
+    else if (count <= 60 ) priceTotal = 350;
+    else {
+        total = 500;
+        csvResults.forEach(r => {
+          priceTotal += r.difficulty < 100 ? 10 : r.difficulty > 100 && r.difficulty < 150 ? 25 : 50
+    });
+  }
+ }
+  return { priceTotal , level};
 };
 
-const convertToCSV = (project, results) => {
+
+const convertToCSV = (project, results , level) => {
   const businessInfo = [
     `Project Name,${project?.name || project?.data?.name  || 'N/A'}`,
     `Domaine name,${project?.url  || 'N/A'}`,
     `Project Description ,${project?.description || 'N/A'}`,
+    `Price Total , ${level.priceTotal || 'N/A'}£`
   ];
-
-  const headers = ['Keyword', 'Search Volume', 'Keyword Difficulty', 'Related Keywords'];
+  const headers = ['Keyword','Keyword Difficulty'];
   const rows = results?.map(result => {
   const keyword = result?.keyword || 'Unknown Keyword';
-  const keywordDifficulty =  result?.keyword_difficulty_for_local_seo  < 50 ? 'Facile' 
-		  : result?.keyword_difficulty_for_local_seo  > 50 && result?.keyword_difficulty_for_local_seo < 100 ? 'Facile'
-		  : result?.Keyword_difficulty_for_local_seo > 100 && result?.keyword_difficulty_for_local_seo < 150 ? 'concurentiel' 
-                  : result?.keyword_difficulty_for_local_seo > 150 && result?.keyword_difficulty_for_local_seo  > 200 ? "Trés concurentiel" 
-		  : "Trés concurentiel" ;
-                  
+  const keywordDifficulty =  
+      result?.difficulty< 100 ? 'Facile'
+		  : result?.difficulty > 100 && result?.difficulty < 150 ? 'concurentiel' 
+      : "Trés concurentiel" ;
+          
   const competitionValue = keywordDifficulty || '-';
+  /*
   const avgMonthlySearches = result?.search_volume || '-' ;
-
   const suggestions = Array.isArray(result?.suggestions) && result?.suggestions.length > 1 
       ? result?.suggestions.filter((item) => item.keyword_difficulty_for_local_seo  < 150  )
           .slice(1)
           .map(sugg => `${sugg?.keyword}` || 'N/A')
           .join('\n')
       : '';
-    return [
-      keyword,
-      avgMonthlySearches,
-      competitionValue,
-      suggestions
-    ].map(cell => {
-      const cellStr = String(cell).replace(/"/g, '""');
-      return cellStr.includes(',') || cellStr.includes('"') || cellStr.includes('\n')
-        ? `"${cellStr}"`
-        : cellStr;
-    }).join(',');
-  });
-  return [...businessInfo, headers.join(','), ...rows].join('\n');
+  */
+      return [
+        keyword,
+        competitionValue,
+      ].map(cell => {
+        const cellStr = String(cell).replace(/"/g, '""');
+        return cellStr.includes(',') || cellStr.includes('"') || cellStr.includes('\n')
+          ? `"${cellStr}"`
+          : cellStr;
+      }).join(',');
+    });
+    return [...businessInfo, headers.join(','), ...rows].join('\n');
 };
 
 const downloadCSV = (csvContent, filename) => {
@@ -112,7 +135,6 @@ const addLocationToResults = async (id , locations , token) =>{
   }
 
 }
-
 //delete locations
 const deleteLocations = async (id , token , locations) => {
    try {
@@ -194,6 +216,7 @@ export default function Results() {
   const {
     userData,
     csvResults,
+    setCsvResults,
     project,
     setProject,
     setKeywords,
@@ -217,8 +240,8 @@ export default function Results() {
   
   const [isLoading, setIsLoading] = useState(false);
   const router = useNavigate();
-  const totalKeywords = calculateTotalKeywords(results);
-  const level = determineLevel(totalKeywords);
+  const totalKeywords = calculateTotalKeywords(csvResults);
+  const level = calculatePrice(csvResults);
   useEffect(() => {
         if(flashMessage){
             setTimeout(() => {
@@ -226,8 +249,6 @@ export default function Results() {
             }, 2000);
         }
     }, [flashMessage , results])
-
-  console.log(results);
     
   const handleDownloadCSV = () => {
       try {
@@ -238,7 +259,7 @@ export default function Results() {
 
         const date = new Date().toISOString().split('T')[0];
         const filename = `keyword-research-${date}.csv`;
-        const csvContent = convertToCSV(project, csvResults);
+        const csvContent = convertToCSV(project, csvResults,level);
         
         downloadCSV(csvContent, filename);
       } catch (error) {
@@ -266,7 +287,6 @@ export default function Results() {
 
   const handleSave = async () => {
     setIsLoading(true);
-    console.log("257" , results);
     if(!token) {
         setShowForm(true);
         if (!project) {
@@ -310,11 +330,9 @@ export default function Results() {
         if(res.ok) {
           const data = await res.json();
           if(locations && locations.length > 0 ){
-            console.log("data id", data);
             const deletedLocationsAction = await deleteLocations(data[0].id , token , locations);
             if(deletedLocationsAction) {
               const locationsResult = await addLocationToResults(data[0].id, locations , token );
-              console.log("locations from deleted", locationsResult);
               setLocations(locationsResult);
             } 
           }
@@ -342,13 +360,14 @@ export default function Results() {
                   description: '',
                   url: "",
                   locationCode: 2250,
-	  selectedLanguage: "French",
+              	  selectedLanguage: "French",
                   selectedCountry: "Franch"
                 })
                 setResults([]);
                 setKeywords([""]);
                 setLocations([]);
-                router('/starter')
+                setCsvResults([]);
+                router('/starter');
               }}>
               <i className='fa-solid fa-arrow-left'></i> Back
           </div>
@@ -357,6 +376,7 @@ export default function Results() {
             userData?.name && (
               <div className='cursor-pointer lg:mr-5 sm:ml-5 text-white font-bold text-black flex gap-2 items-center hover:text-white/80' 
               onClick={() => {
+                setCsvResults([]);
                 router('/'.concat(`${userData?.name}/projects`), { replace: true });
               }}>
                <FolderDot />
@@ -378,8 +398,8 @@ export default function Results() {
                   setResults([]);
                   setKeywords([""]);
                   setLocations([]); 
-                  router('/')
-                
+                  setCsvResults([]);
+                  router('/');
                 }          
                 }>
                 <House className="h-5 w-5" />
@@ -388,7 +408,10 @@ export default function Results() {
             {
              results?.length  > 0 && (
             <div className="flex gap-2 items-center bg-red-500 rounded py-2 px-5 hover:text-red-900 transition-colors duration-200"
-              onClick={() =>handelEditAction()}>
+              onClick={() =>{
+                setCsvResults([]);
+                handelEditAction()
+              }}>
               <Edit className="h-5 w-5"  /> Edit
             </div>
               )

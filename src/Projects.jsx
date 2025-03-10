@@ -34,27 +34,6 @@ const Projects = () => {
     }
   };
 
-  /*
-  const fetchProjects = async () => {
-      try {
-        const res = await fetch( `${BASEURL}/projects`, {
-          headers: {
-            'content-type': "application/json",
-            Accept: 'application/json',
-            'X-Token': token,
-          },
-        })
-        const data = await res.json();
-        if (res.ok) {
-          setProjects(data);
-        }
-      } catch (err) {
-        console.log(err);
-      }
-    A
-    }
-  */
-
   const fetchProjects = async (page = 0, pageSize = 10) => {
     try {
       const res = await fetch(`${BASEURL}/projects?page=${page}&pageSize=${pageSize}`, {
