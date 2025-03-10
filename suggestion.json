@@ -1,0 +1,3588 @@
+{
+    "version": "0.1.20241227",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.4290 sec.",
+    "cost": 0.012,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "01010042-8612-0125-0000-b18673285dc8",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.3635 sec.",
+            "cost": 0.012,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "dataforseo_labs",
+                "keyword_suggestions",
+                "live"
+            ],
+            "data": {
+                "api": "dataforseo_labs",
+                "function": "keyword_suggestions",
+                "keyword": "notaire",
+                "location_code": 2250,
+                "limit": 20
+            },
+            "result": [
+                {
+                    "seed_keyword": "notaire",
+                    "seed_keyword_data": null,
+                    "location_code": 2250,
+                    "language_code": null,
+                    "total_count": 62155,
+                    "items_count": 20,
+                    "offset": 0,
+                    "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyMCwiUmVxdWVzdERhdGEiOnsia2V5d29yZCI6Im5vdGFpcmUiLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6ZmFsc2UsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJmciIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6MjI1MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjIwLCJvZmZzZXQiOjAsImFpZCI6ODYxMjZ9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiI1NmMwYjYyOS1hNjkzLTQ1ZmEtYjY4Mi1lNGZhZGQyNjRjOTkiLCJTZWFyY2hBZnRlckRhdGEiOlsyNzEwMCwiOWRmMzM5NjYtMzI1Yi0wNDU3LWI2ZmMtN2YxZjc2MTAyYjU5Il19",
+                    "items": [
+                        {
+                            "keyword": "notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-13 02:55:33 +00:00",
+                                "competition": 0.01,
+                                "cpc": 0.35,
+                                "search_volume": 90500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 90500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 110000
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 110000
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 74000
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 90500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 90500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 90500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 90500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 110000
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 110000
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 110000
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 90500
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -18,
+                                    "quarterly": -18,
+                                    "yearly": -18
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 82,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-04-18 03:45:09 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 48.63,
+                                "cpc_max": 59.44,
+                                "cpc_average": 54.03,
+                                "daily_impressions_min": 75.22,
+                                "daily_impressions_max": 91.93,
+                                "daily_impressions_average": 83.58,
+                                "daily_clicks_min": 3.66,
+                                "daily_clicks_max": 4.47,
+                                "daily_clicks_average": 4.06,
+                                "daily_cost_min": 197.55,
+                                "daily_cost_max": 241.44,
+                                "daily_cost_average": 219.49
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-03 19:47:51 +00:00",
+                                "search_volume": 14630,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 18340
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 19170
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 11600
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 13730
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 14510
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 13260
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 13990
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 16030
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 13840
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 16270
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 11390
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 11,
+                                        "search_volume": 13430
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-16 10:22:09 +00:00",
+                                "competition": 0.03,
+                                "cpc": 0.13,
+                                "search_volume": 49500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 74000
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 60500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 49500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 40500
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 22,
+                                    "quarterly": 49,
+                                    "yearly": 83
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 82,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-03-22 04:21:00 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 15.85,
+                                "cpc_max": 19.38,
+                                "cpc_average": 17.62,
+                                "daily_impressions_min": 170.1,
+                                "daily_impressions_max": 207.9,
+                                "daily_impressions_average": 189,
+                                "daily_clicks_min": 42.25,
+                                "daily_clicks_max": 51.64,
+                                "daily_clicks_average": 46.94,
+                                "daily_cost_min": 744.22,
+                                "daily_cost_max": 909.6,
+                                "daily_cost_average": 826.91
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-07 19:16:55 +00:00",
+                                "search_volume": 2260,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 2960
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 2920
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 2540
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 2060
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 2400
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 2270
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 2080
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 2340
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 2180
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 2110
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 2050
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 1600
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calculs de frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-13 23:10:49 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": null,
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-05 02:16:10 +00:00",
+                                "search_volume": 0,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "frais de notaire calcul",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-14 19:57:34 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-04-22 02:08:36 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 35.68,
+                                "cpc_max": 43.61,
+                                "cpc_average": 39.64,
+                                "daily_impressions_min": 7.67,
+                                "daily_impressions_max": 9.37,
+                                "daily_impressions_average": 8.52,
+                                "daily_clicks_min": 1.79,
+                                "daily_clicks_max": 2.19,
+                                "daily_clicks_average": 1.99,
+                                "daily_cost_min": 71.08,
+                                "daily_cost_max": 86.88,
+                                "daily_cost_average": 78.98
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-06 02:18:07 +00:00",
+                                "search_volume": 320,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 420
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 380
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 400
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 360
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 360
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 300
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 280
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 290
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 370
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 250
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calculer les frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-17 00:15:43 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-03-23 11:32:23 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 28.69,
+                                "cpc_max": 35.06,
+                                "cpc_average": 31.87,
+                                "daily_impressions_min": 2.39,
+                                "daily_impressions_max": 2.92,
+                                "daily_impressions_average": 2.65,
+                                "daily_clicks_min": 0.9,
+                                "daily_clicks_max": 1.1,
+                                "daily_clicks_average": 1,
+                                "daily_cost_min": 28.58,
+                                "daily_cost_max": 34.93,
+                                "daily_cost_average": 31.76
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-08 07:37:58 +00:00",
+                                "search_volume": 30,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 20
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "frais de notaire calculer",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-15 21:30:44 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-07 06:50:17 +00:00",
+                                "search_volume": 0,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calculatrice frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-16 05:48:23 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-07 15:17:42 +00:00",
+                                "search_volume": 20,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calculer frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-12 12:39:53 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 85,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-04-17 10:10:19 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 32.63,
+                                "cpc_max": 39.88,
+                                "cpc_average": 36.26,
+                                "daily_impressions_min": 1.04,
+                                "daily_impressions_max": 1.27,
+                                "daily_impressions_average": 1.15,
+                                "daily_clicks_min": 0.27,
+                                "daily_clicks_max": 0.32,
+                                "daily_clicks_average": 0.29,
+                                "daily_cost_min": 9.61,
+                                "daily_cost_max": 11.74,
+                                "daily_cost_average": 10.68
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-03 09:28:07 +00:00",
+                                "search_volume": 40,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 50
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 60
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 60
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 11,
+                                        "search_volume": 30
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calcul des frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-15 18:03:24 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 76,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-04-25 00:27:36 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 37.61,
+                                "cpc_max": 45.97,
+                                "cpc_average": 41.79,
+                                "daily_impressions_min": 0.32,
+                                "daily_impressions_max": 0.39,
+                                "daily_impressions_average": 0.35,
+                                "daily_clicks_min": 0.07,
+                                "daily_clicks_max": 0.09,
+                                "daily_clicks_average": 0.08,
+                                "daily_cost_min": 3.07,
+                                "daily_cost_max": 3.75,
+                                "daily_cost_average": 3.41
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-07 03:18:43 +00:00",
+                                "search_volume": 100,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 120
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 70
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 120
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 150
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 80
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 110
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 90
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 80
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calculs frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-11 03:53:35 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-03 02:35:45 +00:00",
+                                "search_volume": 10,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calculateur frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-17 02:48:44 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 85,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-08 09:48:17 +00:00",
+                                "search_volume": 10,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calcul frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-13 02:34:34 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 85,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-04-18 02:46:13 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 18.31,
+                                "cpc_max": 22.38,
+                                "cpc_average": 20.34,
+                                "daily_impressions_min": 3.75,
+                                "daily_impressions_max": 4.59,
+                                "daily_impressions_average": 4.17,
+                                "daily_clicks_min": 1.41,
+                                "daily_clicks_max": 1.73,
+                                "daily_clicks_average": 1.57,
+                                "daily_cost_min": 28.78,
+                                "daily_cost_max": 35.17,
+                                "daily_cost_average": 31.98
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-03 18:45:45 +00:00",
+                                "search_volume": 1050,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 1340
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 1170
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 870
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 1050
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 1060
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 1100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 1270
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 1070
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 1010
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 1070
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 650
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 11,
+                                        "search_volume": 910
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calcul de frais notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-17 19:06:50 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-09 01:41:51 +00:00",
+                                "search_volume": 10,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calculer des frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-14 03:37:32 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-05 06:56:27 +00:00",
+                                "search_volume": 10,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "calcul de frais de notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-16 03:11:38 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 69,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-07 12:43:14 +00:00",
+                                "search_volume": 30,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 30
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 20
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 30
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "frais de notaire : calcul",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-17 17:00:44 +00:00",
+                                "competition": 0.06,
+                                "cpc": 0.1,
+                                "search_volume": 40500,
+                                "categories": [
+                                    10018,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 40500
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 27100
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": 0,
+                                    "quarterly": 0,
+                                    "yearly": 22
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "calcul frais de notaire",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 76,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-03-26 09:46:23 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 32.62,
+                                "cpc_max": 39.87,
+                                "cpc_average": 36.25,
+                                "daily_impressions_min": 22.34,
+                                "daily_impressions_max": 27.3,
+                                "daily_impressions_average": 24.82,
+                                "daily_clicks_min": 6.77,
+                                "daily_clicks_max": 8.28,
+                                "daily_clicks_average": 7.53,
+                                "daily_cost_min": 245.55,
+                                "daily_cost_max": 300.12,
+                                "daily_cost_average": 272.83
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-08 23:42:08 +00:00",
+                                "search_volume": 320,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 420
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 380
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 400
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 320
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 360
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 360
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 300
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 280
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 210
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 290
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 370
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 250
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "immobilier et notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-16 05:08:59 +00:00",
+                                "competition": 0.16,
+                                "cpc": 0.03,
+                                "search_volume": 27100,
+                                "categories": [
+                                    10003,
+                                    10018,
+                                    10040,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 22200
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -18,
+                                    "quarterly": -18,
+                                    "yearly": -18
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "notaire et immobilier",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 100,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-03-21 17:00:08 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-07 14:39:09 +00:00",
+                                "search_volume": 0,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "immobilier par notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-13 09:33:31 +00:00",
+                                "competition": 0.16,
+                                "cpc": 0.03,
+                                "search_volume": 27100,
+                                "categories": [
+                                    10003,
+                                    10018,
+                                    10040,
+                                    10160,
+                                    10828
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 22200
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -18,
+                                    "quarterly": -18,
+                                    "yearly": -18
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "immobilier notaires",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 86,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-04-18 15:44:33 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.11,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 45.25,
+                                "cpc_max": 55.31,
+                                "cpc_average": 50.28,
+                                "daily_impressions_min": 0.29,
+                                "daily_impressions_max": 0.36,
+                                "daily_impressions_average": 0.33,
+                                "daily_clicks_min": 0.01,
+                                "daily_clicks_max": 0.02,
+                                "daily_clicks_average": 0.01,
+                                "daily_cost_min": 0.66,
+                                "daily_cost_max": 0.81,
+                                "daily_cost_average": 0.74
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-04 13:19:40 +00:00",
+                                "search_volume": 0,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "immo notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-11 19:55:55 +00:00",
+                                "competition": 0.16,
+                                "cpc": 0.03,
+                                "search_volume": 27100,
+                                "categories": [
+                                    10003,
+                                    10040
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 22200
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -18,
+                                    "quarterly": -18,
+                                    "yearly": -18
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": null,
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 100,
+                                "detected_language": "en",
+                                "is_another_language": true
+                            },
+                            "impressions_info": {
+                                "last_updated_time": "2022-04-17 06:24:22 +00:00",
+                                "bid": 999,
+                                "match_type": "exact",
+                                "ad_position_min": 1.12,
+                                "ad_position_max": 1,
+                                "ad_position_average": 1.06,
+                                "cpc_min": 19.31,
+                                "cpc_max": 23.6,
+                                "cpc_average": 21.46,
+                                "daily_impressions_min": 33.2,
+                                "daily_impressions_max": 40.58,
+                                "daily_impressions_average": 36.89,
+                                "daily_clicks_min": 3.01,
+                                "daily_clicks_max": 3.68,
+                                "daily_clicks_average": 3.35,
+                                "daily_cost_min": 64.6,
+                                "daily_cost_max": 78.96,
+                                "daily_cost_average": 71.78
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-03 06:41:17 +00:00",
+                                "search_volume": 300,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 400
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 390
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 340
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 280
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 290
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 270
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 250
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 310
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 290
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 250
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 230
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 11,
+                                        "search_volume": 260
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        },
+                        {
+                            "keyword": "immobiliers notaire",
+                            "location_code": 2250,
+                            "language_code": "fr",
+                            "keyword_info": {
+                                "last_updated_time": "2024-12-17 05:37:48 +00:00",
+                                "competition": 0.16,
+                                "cpc": 0.03,
+                                "search_volume": 27100,
+                                "categories": [
+                                    10003,
+                                    10040
+                                ],
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 22200
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 27100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 33100
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 22200
+                                    }
+                                ],
+                                "search_volume_trend": {
+                                    "monthly": -18,
+                                    "quarterly": -18,
+                                    "yearly": -18
+                                }
+                            },
+                            "keyword_properties": {
+                                "core_keyword": "immobilier notaires",
+                                "synonym_clustering_algorithm": "text_processing",
+                                "keyword_difficulty": 100,
+                                "detected_language": "fr",
+                                "is_another_language": false
+                            },
+                            "impressions_info": {
+                                "last_updated_time": null,
+                                "bid": null,
+                                "match_type": null,
+                                "ad_position_min": null,
+                                "ad_position_max": null,
+                                "ad_position_average": null,
+                                "cpc_min": null,
+                                "cpc_max": null,
+                                "cpc_average": null,
+                                "daily_impressions_min": null,
+                                "daily_impressions_max": null,
+                                "daily_impressions_average": null,
+                                "daily_clicks_min": null,
+                                "daily_clicks_max": null,
+                                "daily_clicks_average": null,
+                                "daily_cost_min": null,
+                                "daily_cost_max": null,
+                                "daily_cost_average": null
+                            },
+                            "bing_keyword_info": {
+                                "last_updated_time": "2024-12-08 13:18:19 +00:00",
+                                "search_volume": 0,
+                                "monthly_searches": [
+                                    {
+                                        "year": 2024,
+                                        "month": 11,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 10,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 9,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 8,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 7,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 6,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 5,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 4,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 3,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 2,
+                                        "search_volume": 10
+                                    },
+                                    {
+                                        "year": 2024,
+                                        "month": 1,
+                                        "search_volume": 0
+                                    },
+                                    {
+                                        "year": 2023,
+                                        "month": 12,
+                                        "search_volume": 10
+                                    }
+                                ]
+                            },
+                            "serp_info": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
